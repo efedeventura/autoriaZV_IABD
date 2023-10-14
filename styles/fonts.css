@@ -1,0 +1,66 @@
+/* ##########################################################################
+     ==========================================================================
+        Importación de la fuente de 2texto
+     ==========================================================================
+     ########################################################################## */
+
+     @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+     @font-face {
+         font-family: 'Operator Mono';
+         src: url('fonts/FontsFree-Net-OperatorMono-Bold.ttf') format('ttf');
+         src: url('fonts/FontsFree-Net-OperatorMono-Bold.woff2') format('woff2');
+         src: url('fonts/FontsFree-Net-OperatorMono-Bold.woff') format('woff');
+         font-style: normal;
+         font-weight: 900;
+     }
+     @font-face {
+         font-family: 'Operator Mono';
+         src: url('fonts/FontsFree-Net-OperatorMono-BoldItalic.ttf') format('ttf');
+         src: url('fonts/FontsFree-Net-OperatorMono-BoldItalic.woff2') format('woff2');
+         src: url('fonts/FontsFree-Net-OperatorMono-BoldItalic.woff') format('woff');
+         font-style: italic;
+         font-weight: 900;
+     }
+     @font-face {
+         font-family: 'Operator Mono';
+         src: url('fonts/FontsFree-Net-OperatorMono-Book.ttf') format('ttf');
+         font-style: normal;
+         font-weight: normal;
+     }
+     @font-face {
+         font-family: 'Operator Mono';
+         src: url('fonts/FontsFree-Net-OperatorMono-BookItalic.ttf') format('ttf');
+         src: url('fonts/FontsFree-Net-OperatorMono-BookItalic.woff2') format('woff2');
+         src: url('fonts/FontsFree-Net-OperatorMono-BookItalic.woff') format('woff');
+         font-style: italic;
+         font-weight: 400;
+     }
+     @font-face {
+         font-family: 'Operator Mono';
+         src: url('fonts/FontsFree-Net-OperatorMono-light.ttf') format('ttf');
+         src: url('fonts/FontsFree-Net-OperatorMono-light.woff2') format('woff2');
+         src: url('fonts/FontsFree-Net-OperatorMono-light.woff') format('woff');
+         font-style: normal;
+         font-weight: 300;
+     }
+     @font-face {
+         font-family: 'Operator Mono';
+         src: url('fonts/FontsFree-Net-OperatorMono-Medium.ttf') format('ttf');
+         src: url('fonts/FontsFree-Net-OperatorMono-Medium.woff2') format('woff2');
+         src: url('fonts/FontsFree-Net-OperatorMono-Medium.woff') format('woff');
+         font-style: normal;
+         font-weight: bold;
+     }
+     @font-face {
+         font-family: 'Operator Mono';
+         src: url('fonts/FontsFree-Net-OperatorMono-XLight.ttf') format('ttf');
+         src: url('fonts/FontsFree-Net-OperatorMono-XLight.woff2') format('woff2');
+         src: url('fonts/FontsFree-Net-OperatorMono-XLight.woff') format('woff');
+         font-style: normal;
+         font-weight: 200;
+     }
+     
+     * {
+         font-family: 'Operator Mono', 'Courier Prime', monospace;
+     }

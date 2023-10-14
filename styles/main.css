@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #12151c;
+    color: antiquewhite;
+}
+
+header {
+    background: linear-gradient(to bottom, #000000, #12151c);
+    padding: 3rem 2rem;
+}
+
+main {
+    padding-bottom: 5rem;
+}
+
+main, .headerBox {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2:not(:first-of-type) {
+    margin-top: 3rem;
+}
+
+p, span {
+    color: aliceblue;
+    padding: 0 1rem;
+    text-justify: justify;
+    line-height: 1.3rem;
+}
+
+h3 {
+    margin-top: 1.3rem;
+    margin-left: .4rem;
+}
+
+p {
+    margin-top: .6rem;
+}
+
+.imageWrapper {
+    margin-top: .9rem;
+}
+
+img {
+    max-width: 100%;
+}
